@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.month-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.month-list > * {
+  margin-top: 30px;
+}
+
+.month-list__item {
+  padding: 20px;
+  border: 1px solid gray;
+
+  font-weight: 500;
+}
